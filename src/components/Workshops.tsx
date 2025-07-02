@@ -1,6 +1,5 @@
-
 import { motion } from "framer-motion";
-import { Wrench, Seedling, Book, Recycle, Users, Clock } from "lucide-react";
+import { Wrench, Sprout, Book, Recycle, Users, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
@@ -16,7 +15,7 @@ const Workshops = () => {
       details: "Taller práctico donde aprenderás a reparar electrodomésticos menores, ropa, calzado y muebles. Incluye kit básico de herramientas y materiales."
     },
     {
-      icon: Seedling,
+      icon: Sprout,
       title: "Huerta Comunitaria",
       description: "Cultiva tus propios alimentos y participa en nuestra huerta colectiva sustentable.",
       schedule: "Jueves 18:00 hrs",
