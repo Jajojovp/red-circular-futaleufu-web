@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { ArrowDown, Sprout, Users, Recycle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -9,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center relative bg-gradient-to-br from-green-50 via-amber-50 to-orange-100 pt-20">
+    <section id="hero" className="min-h-screen flex flex-col justify-center items-center relative bg-gradient-to-br from-green-50 via-amber-50 to-orange-100 pt-20">
       <motion.div 
         className="text-center max-w-4xl mx-auto px-4"
         initial={{ opacity: 0, y: 30 }}
